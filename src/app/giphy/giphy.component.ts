@@ -11,7 +11,7 @@ import { Giphy } from '../giphy';
 
 export class GiphyComponent implements OnInit {
 
-  giphysearchService: any; //declaring the sservice
+  giphysearchService: GiphysearchService; //declaring the sservice
 
 
   constructor(giphysearchService:GiphysearchService) { 
